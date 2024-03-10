@@ -1,0 +1,76 @@
+.contact-us{
+    margin: 80px auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 90%;
+
+}
+.contact-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.contact-col h3{
+    color: #000f38;
+    font-size: 25px;
+    font-weight:500;
+}
+.contact-col p{
+    max-width: 450px;
+    line-height: 20px;
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    list-style: none;
+    
+    
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom:10px;
+    margin-left: 0;
+    position: relative;
+    height: 500px;
+    
+}
+.form{
+    padding-left: 0px;
+    width: 40%;
+    margin-top: 20%;
+   
+}
+.inline{
+    display:inline-block;
+    color:#000f38;
+}
+.form-info input ,.form-info textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+#label3{
+   margin-right:300px;
+
+}
+#label1{
+    margin-right: 235px;
+}
+#label2{
+    margin-right: 200px;
+}
+.more{
+    margin-right: 240px;
+    display: flex;
+    align-items: center;
+}

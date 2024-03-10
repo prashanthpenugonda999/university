@@ -1,0 +1,58 @@
+.programs{
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.program img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+
+}
+.program:hover .caption{
+    opacity: 1;
+    color: white;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+    
+
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background: rgba(0,15,152,0.3);
+    color: rgb(255, 175, 1);
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    
+}
+.caption i{
+   margin-left: 10px;
+
+}
+.caption p{
+    font-size: 16px;
+    font-weight: 800;
+}
+#img1{
+    height: 170px;
+}
+    
+    
+    
+
